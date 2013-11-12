@@ -1,0 +1,38 @@
+GPU Fractals!
+
+By Pete Corey (pcorey@calpoly.edu)
+California Polytechnic State University (Cal Poly)
+December 2010
+
+Requirements:
+  Linux
+  GPU with OpenGL 2.0 support.
+  GLUT, GLUI, GLEW, DevIL libraries.
+
+Control Notes:
+  'WSAD'/Mouse Drag: translates around the fractal.
+  'F'/[Scroll Wheel Up]: Zooms into the fractal. The red dot (sometimes 
+       difficult to see) marks the point the camera will zoom in on. This is 
+       always in the center of the screen.
+  'E'/[Scroll Wheel Down]: Zooms out of the fractal.
+  [TAB]: Switches between the basic iteration count coloring algorithm and a
+       triangle inequality average coloring algorithm.  The triangle inequality
+       algorithm was based on an algorithm found in UltraFractal.
+  'P': Print zoom factor to console as a floating point number.
+  'Q': Quit the program.
+
+  Note: translating and scaling are both scaled proportionally according to how
+        far the user is zoomed into the fractal. This provides smooth motion.
+
+        
+Menu Notes:
+  Values found in the user interface window are updated in real time and can be
+  changed to any value.
+  
+  The files found in the "Textures" dropdown menu are populated from all files
+  found in the ./colors/ directory. Users can add images to this directory to
+  be used as coloring textures (only the first column of pixels will be used).
+  
+If you'd like to do any future work on this project, please contact me at
+   pcorey@calpoly.edu AND petecorey@gmail.com
+   
